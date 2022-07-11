@@ -21,6 +21,7 @@ int print_pointer(va_list types, char buffer[],
 	void *addrs = va_arg(types, void *);
 
 	UNUSED(width);
+
 	UNUSED(size);
 
 	if (addrs == NULL)
