@@ -11,6 +11,7 @@
  * @size: Size specifier
  * Return: Number of chars printed.
  */
+
 int print_pointer(va_list types, char buffer[],
 	int flags, int width, int precision, int size)
 {
@@ -21,7 +22,6 @@ int print_pointer(va_list types, char buffer[],
 	void *addrs = va_arg(types, void *);
 
 	UNUSED(width);
-
 	UNUSED(size);
 
 	if (addrs == NULL)
